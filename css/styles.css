@@ -3,11 +3,12 @@
 
 /* variables globales  */
 :root {
-    --clr-main: #6cb64a;   
+    --clr-main: #171130 ;   
     --clr-main-light: #785ce9;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
+    --crl-trans:#9e9797de;
 }
  
 /* #171130 */
@@ -164,6 +165,9 @@ main {
 .titulo-principal {
     color: var(--clr-main);
     margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    
 }
 
 .contenedor-productos {
